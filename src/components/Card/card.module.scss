@@ -1,0 +1,21 @@
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+
+    &_image-con {
+        position: relative;
+        height: 300px;
+        width: 300px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    &_text-con {
+        background-color: white;
+        padding: 8px 15px 10px 15px;
+        color: black;
+        height: 100%
+    }
+}

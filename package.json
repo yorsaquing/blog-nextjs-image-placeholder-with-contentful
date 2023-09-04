@@ -1,0 +1,23 @@
+{
+  "name": "blog-nextjs-image-contentful",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@plaiceholder/next": "^3.0.0",
+    "contentful": "^10.5.1",
+    "next": "13.4.19",
+    "plaiceholder": "^3.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.32.5"
+  },
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}
